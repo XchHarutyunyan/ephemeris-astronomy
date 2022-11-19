@@ -6,11 +6,11 @@
 
 *app.js*
 ```javascript
-const ephemerisNavigation = require('ephemeris-astronomy');
+const ephemerisAstronomy = require('ephemeris-astronomy');
 const dateObj = new Date('2022-11-20T01:18:12.000+04:00');
 
-// parameters: ephemerisNavigation.getAllPlanets(dateObj, longitude, latitude, height);
-var result = ephemerisNavigation.getAllPlanets(dateObj, 10.0014, 53.5653, 0);
+// parameters: ephemerisAstronomy.getAllPlanets(dateObj, longitude, latitude, height);
+var result = ephemerisAstronomy.getAllPlanets(dateObj, 10.0014, 53.5653, 0);
 
 /* Check out the namespaces: date, observer and observed:
 
